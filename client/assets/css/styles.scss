@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+$raleway: 'Raleway', sans-serif;
+$blue: #3f51b5;
+
+* {
+    font-family: $raleway
+}
+
+body {
+    background-color:whitesmoke;
+}
+
+
+h1 {
+    color: $blue;
+    font-size: 4vw;
+    max-width: 16vw;
+}
+
+#features {
+    padding: 40px 0;
+    figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+  }
+}
+
+#menu {
+    color: $blue;
+    position: absolute;
+    top: 3.5%;
+    right: 2.5%;
+}
+
+#auxpack-banner {
+    margin-left: 2%;
+    margin-bottom: 3vh;
+    margin-top: 2%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#particles {
+    background: linear-gradient(45deg, #66b1cd, #c96f94, #e5c072);
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+#particles2 {
+    background: linear-gradient(45deg, #66b1cd, #c96f94, #e5c072);
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+#summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#explanation-word {
+    margin-top: 20vh;
+    position: absolute;
+    width: 30vw;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contribute {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+#contributors {
+    position: absolute;
+    width: 100%;
+}
+
+#authors {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#configPage {
+    display: flex;
+}
+
+#configText {
+    width: 90vw;
+}
+
+#explanation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featureImg {
+    padding-right: 2vw;
+    height: 33vh;
+}
+
+.contributorImg {
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+.github{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.linked {
+    height: 30px;
+    width: 30px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.contributorPod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
