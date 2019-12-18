@@ -14,7 +14,7 @@ const Contributors = (props) => {
             </div>
             <div className="contributorPod">
                 <h3>Stephanie Chiu</h3>
-                <img className="contributorImg" src='/Stephanie.jpg' alt="Stephanie Chiu picture"/>
+                <img className="contributorImg" src='/Stephanie.jpeg' alt="Stephanie Chiu picture"/>
                 <div className="contributorLinks">
                     <a href="https://github.com/stephkchiu"><img className="github" src="/github.png" /></a>
                     <a href="https://www.linkedin.com/in/stephanie-chiu-/"><img className="linked" src="/linkedin.png" /></a>

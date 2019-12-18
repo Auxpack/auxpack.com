@@ -9,7 +9,7 @@ const Features = (props) => {
                 <img id="overview" className="featureImg" src='/overview-opt.gif' alt='gif of overview page'/>
             <ScrollAnimation animateIn='fadeInRight'>
             <figcaption><strong>Dashboard: </strong><br/>
-                Know your entire bundle at a glance, get the details you need in the format you want. Elegant dashboard displays build information to make informed decisions about optimization.
+                Know your entire bundle at a glance, get the details you need in the format you want.<br/> Elegant dashboard displays build information to make informed decisions about optimization.
             </figcaption>
             </ScrollAnimation>
             </figure>
