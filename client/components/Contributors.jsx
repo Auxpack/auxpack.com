@@ -6,7 +6,7 @@ const Contributors = (props) => {
         <div id="authors">
             <div className="contributorPod">
                 <h3>Nobuhide Ajito</h3>
-                <img className="contributorImg" src='https://picsum.photos/400/400' alt="Nobuhide Ajito picture"/>
+                <img className="contributorImg" src='/Nobuhide.jpg' alt="Nobuhide Ajito picture"/>
                 <div className="contributorLinks">
                     <a href="https://www.github.com/najito"><img className="github" src="/github.png"/></a>
                     <a href="https://www.linkedin.com/in/nobuhide-ajito/"><img className="linked" src="/linkedin.png" /></a>
@@ -30,7 +30,7 @@ const Contributors = (props) => {
             </div>
             <div className="contributorPod">
                 <h3>Connie Lai</h3>
-                <img className="contributorImg" src='https://picsum.photos/400/400' alt="Connie Lai picture"/>
+                <img className="contributorImg" src='/Connie.jpg' alt="Connie Lai picture"/>
                 <div className="contributorLinks">
                     <a href="https://github.com/connielion"><img className="github" src="/github.png" /></a>
                     <a href="https://www.linkedin.com/in/connie-lai-140266b7/"><img className="linked" src="/linkedin.png" /></a>
