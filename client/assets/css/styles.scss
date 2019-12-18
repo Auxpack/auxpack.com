@@ -4,11 +4,13 @@ $raleway: 'Raleway', sans-serif;
 $blue: #3f51b5;
 
 * {
-    font-family: $raleway
+    font-family: $raleway;
+    overflow-x: hidden;
 }
 
 body {
     background-color:whitesmoke;
+    width: 99%;
 }
 
 
@@ -34,7 +36,7 @@ h1 {
     color: $blue;
     position: absolute;
     top: 3.5%;
-    right: 2.5%;
+    right: 3.5%;
 }
 
 #auxpack-banner {
@@ -107,6 +109,10 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#overview {
+    width: 50vw;
 }
 
 .featureImg {
